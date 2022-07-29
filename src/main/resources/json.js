@@ -1,0 +1,1 @@
+{"name":"GamesRadfast_Bot","token":"5127922495:AAEy8lUFeMRagAmHMMfj5VXosionVPKesQw","command":"\/start","command2":"\/start_loading","command3":"\/delete","command4":"\/start_download","command5":"\/stop"}
