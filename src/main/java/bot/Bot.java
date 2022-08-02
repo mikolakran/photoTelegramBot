@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class Bot extends TelegramLongPollingBot {
 
     private ReadingJson readingJson = new ReadingJson();
-    private final String nameFileJson = "photoTelegramBot/src/main/resources/json.js";
+    private final String nameFileJson = "src/main/resources/json.js";
     private final String command_start = readingJson.reading("command", nameFileJson);
     private final String command_start_photo = readingJson.reading("command4", nameFileJson);
     private final String command_stop_bot = readingJson.reading("command5", nameFileJson);

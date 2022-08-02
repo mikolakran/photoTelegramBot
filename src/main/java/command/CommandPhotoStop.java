@@ -11,7 +11,7 @@ public class CommandPhotoStop {
     public PhotoFileRun photoFileStart;
 
     private  ReadingJson readingJson = new ReadingJson();
-    private final String nameFileJson = "photoTelegramBot/src/main/resources/json.js";
+    private final String nameFileJson = "src/main/resources/json.js";
     private final String command_stop_bot = readingJson.reading("command5", nameFileJson);
     public Thread thread;
 

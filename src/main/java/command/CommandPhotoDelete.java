@@ -16,7 +16,7 @@ public class CommandPhotoDelete {
     public String nameFile;
 
     private  ReadingJson readingJson = new ReadingJson();
-    private final String nameFileJson = "photoTelegramBot/src/main/resources/json.js";
+    private final String nameFileJson = "src/main/resources/json.js";
     private final String command_delete_photo = readingJson.reading("command3", nameFileJson);
 
     public Bot bot;

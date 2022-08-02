@@ -12,8 +12,8 @@ public class UserPerson {
 
 
     public PersonRecord personRecord = new RecordJson(
-            "photoTelegramBot/src/main/resources/id_person_json.js",
-            "photoTelegramBot/src/main/resources/id_group_json.js");
+            "src/main/resources/id_person_json.js",
+            "src/main/resources/id_group_json.js");
 
     public PersonReading personReading = new ReadingJson();
 

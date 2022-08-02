@@ -46,7 +46,7 @@ public class PhotoFileRun {
     }
 
     public synchronized void photo_run() {
-        File file = new File("photoTelegramBot/src/main/resources/upload_file");
+        File file = new File("src/main/resources/upload_file");
         System.out.println("Thread.currentThread().getName() = " + Thread.currentThread().getName());
         if (file.isDirectory()) {
             while (!Thread.currentThread().isInterrupted()) {

@@ -9,7 +9,7 @@ public class CommandPhotoLoadingPhoto {
     private boolean b;
 
     private  ReadingJson readingJson = new ReadingJson();
-    private final String nameFileJson = "photoTelegramBot/src/main/resources/json.js";
+    private final String nameFileJson = "src/main/resources/json.js";
     private final String command_loading_photo = readingJson.reading("command2", nameFileJson);
 
 
