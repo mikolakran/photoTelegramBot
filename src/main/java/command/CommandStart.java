@@ -38,6 +38,9 @@ public class CommandStart {
         if (update.getMessage().getChatId() < 0) {
             userPerson.setGroupNameIdPerson(update.getMessage().getChat().getUserName(),
                     String.valueOf(update.getMessage().getChatId()));
+        }else{
+           userPerson.setGroupNameIdPerson(update.getMessage().getChat().getUserName(),
+                   String.valueOf(update.getMessage().getForwardFromChat().getId()));
         }
     }
 }
